@@ -12,3 +12,5 @@ Check out [this video](https://drive.google.com/file/d/18mSDwaNAkBl2pOkes1lbCGX2
 project and some challenges I faced while building it.
 
 ## Github Pages
+
+https://github.com/nikkita1120/se_project_spots.git
