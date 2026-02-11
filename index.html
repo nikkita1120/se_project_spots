@@ -13,17 +13,135 @@
       content="photography, photo sharing, travel, nature, spots, gallery, images"
     />
     <title>Spots</title>
-    <link rel="styles" href="/pages/index.css" />
+    <link rel="stylesheet" href="/pages/index.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <img src="./images/Logo.svg" alt="logo" class="header__logo" />
+      </header>
       <main class="content">
-        <section class="profile"></section>
-        <section class="cards"></section>
+        <section class="profile">
+          <div class="profile__avatar">
+            <img
+              src="./images/avatar.jpg"
+              alt="Bessie Coleman"
+              class="profile__avatar_image"
+            />
+            <div class="profile__avatar_content">
+              <h1 class="avatar__content_name">Bessie Coleman</h1>
+              <p class="avatar__content_bio">Civil Aviator</p>
+              <button class="profile__edit-button">
+                <img
+                  src="./images/Edit Icon.png"
+                  alt="edit icon"
+                  class="profile__edit-button_icon"
+                />Edit Profile
+              </button>
+            </div>
+          </div>
+          <button class="profile__np-button">
+            <img
+              src="./images/Plus icon.png"
+              alt="plus icon"
+              class="profile__np-button_plus-icon"
+            />
+            New Post
+          </button>
+        </section>
+
+        <ul class="cards">
+          <section class="cards__card">
+            <img
+              src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg"
+              alt="card image"
+              class="cards__card_image"
+            />
+            <h2 class="cards__card_image-caption">Val Thorens</h2>
+            <img
+              src="./images/Like Icon.png"
+              alt="like icon"
+              class="cards__card_like-icon"
+            />
+          </section>
+
+          <section class="cards__card">
+            <img
+              src="./images/2-photo-by-ceiline-from-pexels.jpg"
+              alt="card image"
+              class="cards__card_image"
+            />
+            <h2 class="cards__card_image-caption">Restaurant terrace</h2>
+            <img
+              src="./images/Like Icon.png"
+              alt="like icon"
+              class="cards__card_like-icon"
+            />
+          </section>
+
+          <section class="cards__card">
+            <img
+              src="./images/3-photo-by-tubanur-dogan-from-pexels.jpg"
+              alt="card image"
+              class="cards__card_image"
+            />
+            <h2 class="cards__card_image-caption">An outdoor cafe</h2>
+            <img
+              src="./images/Like Icon.png"
+              alt="like icon"
+              class="cards__card_like-icon"
+            />
+          </section>
+
+          <section class="cards__card">
+            <img
+              src="./images/4-photo-by-maurice-laschet-from-pexels.jpg"
+              alt="card image"
+              class="cards__card_image"
+            />
+            <h2 class="cards__card_image-caption">
+              A very long bridge, over the forest...
+            </h2>
+            <img
+              src="./images/Like Icon.png"
+              alt="like icon"
+              class="cards__card_like-icon"
+            />
+          </section>
+
+          <section class="cards__card">
+            <img
+              src="./images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
+              alt="card image"
+              class="cards__card_image"
+            />
+            <h2 class="cards__card_image-caption">Tunnel with morning light</h2>
+            <img
+              src="./images/Like Icon.png"
+              alt="like icon"
+              class="cards__card_like-icon"
+            />
+          </section>
+
+          <section class="cards__card">
+            <img
+              src="./images/6-photo-by-moritz-feldmann-from-pexels.jpg"
+              alt="card image"
+              class="cards__card_image"
+            />
+            <h2 class="cards__card_image-caption">Mountain house</h2>
+            <img
+              src="./images/Like Icon.png"
+              alt="like icon"
+              class="cards__card_like-icon"
+            />
+          </section>
+        </ul>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <p class="footer__copyright">2023 © Spots</p>
+      </footer>
     </div>
   </body>
 </html>
