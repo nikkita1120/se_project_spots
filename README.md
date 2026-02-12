@@ -13,4 +13,4 @@ project and some challenges I faced while building it.
 
 ## Github Pages
 
-https://github.com/nikkita1120/se_project_spots.git
+https://nikkita1120.github.io/se_project_spots/
