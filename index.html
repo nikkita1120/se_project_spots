@@ -32,7 +32,7 @@
             <div class="profile__avatar_content">
               <h1 class="avatar__content_name">Bessie Coleman</h1>
               <p class="avatar__content_bio">Civil Aviator</p>
-              <button class="profile__edit-button">
+              <button type="button" class="profile__edit-button">
                 <img
                   src="./images/Edit Icon.png"
                   alt="edit icon"
@@ -142,6 +142,68 @@
       <footer class="footer">
         <p class="footer__copyright">2023 © Spots</p>
       </footer>
+      <div class="modal">
+        <div class="modal__container">
+          <div class="modal__row">
+            <h2 class="modal__title">Edit profile</h2>
+            <button class="modal__close-button">
+              <img
+                src="./images/Exit Icon.png"
+                alt="exit icon"
+                class="modal__exit-icon"
+              />
+            </button>
+          </div>
+          <form class="modal__form">
+            <label for="profile-name-input" class="modal__form-item"
+              >Name<input
+                type="text"
+                id="profile-name-input"
+                class="modal__input"
+                placeholder="Type your name"
+            /></label>
+            <label for="profile-description-input" class="modal__form-item"
+              >Description<input
+                type="text"
+                id="profile-description-input"
+                class="modal__input"
+                placeholder="Describe yourself"
+            /></label>
+            <button type="submit" class="modal__submit-button">Save</button>
+          </form>
+        </div>
+      </div>
+      <div class="modal modal_is-opened">
+        <div class="modal__container">
+          <div class="modal__row">
+            <h2 class="modal__title">New post</h2>
+            <button class="modal__close-button">
+              <img
+                src="./images/Exit Icon.png"
+                alt="exit icon"
+                class="modal__exit-icon"
+              />
+            </button>
+          </div>
+          <form class="modal__form">
+            <label for="image-link" class="modal__form-item"
+              >Image link<input
+                type="url"
+                id="image-link"
+                class="modal__input"
+                placeholder="Paste a link to the picture"
+            /></label>
+            <label for="caption" class="modal__form-item"
+              >Caption<input
+                type="text"
+                id="caption"
+                class="modal__input"
+                placeholder="Type your caption"
+            /></label>
+            <button type="submit" class="modal__submit-button">Save</button>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>
