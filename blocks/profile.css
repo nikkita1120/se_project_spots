@@ -17,7 +17,7 @@
   justify-content: flex-start;
 }
 
-.avatar__content-name {
+.profile__avatar-content-name {
   margin: 0;
   font-family: "Poppins";
   font-weight: 500;
@@ -29,8 +29,7 @@
 
   margin-bottom: 12px;
 }
-
-.avatar__content-bio {
+.profile__avatar-content-bio {
   margin: 0;
   font-family: Poppins;
   font-weight: 500;
@@ -41,8 +40,8 @@
   color: #212121b2;
 }
 
-.avatar__content-name,
-.avatar__content-bio {
+.profile__avatar-content-name,
+.profile__avatar-content-bio {
   overflow: hidden;
   text-overflow: ellipsis;
 
