@@ -22,7 +22,7 @@
   max-width: 413px;
 }
 
-.cards__card_image {
+.cards__card-image {
   object-fit: cover;
 
   grid-area: picture;
@@ -32,8 +32,7 @@
 
   border-radius: 16px;
 }
-
-.cards__card_image-caption {
+.cards__card-image-caption {
   grid-area: description;
   max-width: 353px;
   overflow: hidden;
@@ -44,15 +43,13 @@
   line-height: 120%;
   letter-spacing: 0%;
 }
-
-.cards__card_like-icon {
+.cards__card-like-icon {
   grid-area: heart;
   justify-self: end;
   align-self: center;
   opacity: 0.4;
 }
-
-.cards__card_like-icon:hover {
+.cards__card-like-icon:hover {
   opacity: 1;
 }
 

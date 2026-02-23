@@ -11,13 +11,13 @@
   gap: 20px;
 }
 
-.profile__avatar_content {
+.profile__avatar-content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.avatar__content_name {
+.avatar__content-name {
   margin: 0;
   font-family: "Poppins";
   font-weight: 500;
@@ -30,7 +30,7 @@
   margin-bottom: 12px;
 }
 
-.avatar__content_bio {
+.avatar__content-bio {
   margin: 0;
   font-family: Poppins;
   font-weight: 500;
@@ -41,8 +41,8 @@
   color: #212121b2;
 }
 
-.avatar__content_name,
-.avatar__content_bio {
+.avatar__content-name,
+.avatar__content-bio {
   overflow: hidden;
   text-overflow: ellipsis;
 
@@ -98,7 +98,7 @@
   opacity: 0.8;
 }
 
-.profile__np-button_plus-icon {
+.profile__np-button-plus-icon {
   height: 12px;
   width: 12px;
 
@@ -120,12 +120,12 @@
     align-items: center;
   }
 
-  .profile__avatar_image {
+  .profile__avatar-image {
     width: 80px;
     height: 80px;
   }
 
-  .profile__avatar_content {
+  .profile__avatar-content {
     align-items: center;
     text-align: center;
     font-size: 20px;
