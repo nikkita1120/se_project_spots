@@ -28,12 +28,23 @@ let initialCards = [
 const editModalBtn = document.querySelector(".profile__edit-button");
 const editModal = document.querySelector("#edit-profile-modal");
 const editCloseBtn = editModal.querySelector(".modal__close-button");
+const editForm = editModal.querySelector(".modal__form");
+
 const npModalBtn = document.querySelector(".profile__np-button");
 const npModal = document.querySelector("#new-post-modal");
 const npCloseBtn = npModal.querySelector(".modal__close-button");
 
+const profileName = document.querySelector(".profile__avatar-content-name");
+const profileBio = document.querySelector(".profile__avatar-content-bio");
+const editProfileNameInput = editModal.querySelector("#profile-name-input");
+const editProfileDescriptionInput = editModal.querySelector(
+  "#profile-description-input",
+);
+
 editModalBtn.addEventListener("click", function () {
   editModal.classList.add("modal_is-opened");
+  editProfileNameInput.value = profileName.textContent;
+  editProfileDescriptionInput.value = profileBio.textContent;
 });
 
 npModalBtn.addEventListener("click", function () {
@@ -46,6 +57,13 @@ editCloseBtn.addEventListener("click", function () {
 
 npCloseBtn.addEventListener("click", function () {
   npModal.classList.remove("modal_is-opened");
+});
+
+editForm.addEventListener("submit", function (evt) {
+  evt.preventDefault();
+  profileName.textContent = editProfileNameInput.value;
+  profileBio.textContent = editProfileDescriptionInput.value;
+  editModal.classList.remove("modal_is-opened");
 });
 
 initialCards.forEach(function (card) {
